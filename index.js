@@ -11,7 +11,7 @@ app.use(express.urlencoded({extended: true}))
 app.use(cors('*'))
 
 app.listen(PORT, () => {
-    console.log(`Server funcionando ${PORT}`)
+    console.log(`Server working on : ${PORT}`)
 })
 
 app.get('/', (req, res) => {
